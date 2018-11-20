@@ -1,0 +1,32 @@
+# Image Files #
+###############
+*.jpg
+*.png
+*.jpeg
+
+# Video Files #
+###############
+*.webm
+*.avi
+*.mp4
+
+# ipynb checkpoints #
+#####################
+.ipynb_checkpoints
+
+# System files and Logs #
+#########################
+*.log
+*~
+.DStore
+
+# Python Cache #
+################
+pycache/
+*.pyc
+
+# Compiled Source #
+###################
+*.o
+*.out
+*.exe
