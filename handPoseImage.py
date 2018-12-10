@@ -1,6 +1,7 @@
 import cv2
 import time
 import numpy as np
+from Emplementation.empl import create_list_distance
 
 protoFile = "hand/pose_deploy.prototxt"
 weightsFile = "hand/pose_iter_102000.caffemodel"
@@ -68,5 +69,7 @@ cv2.imwrite('Output-Keypoints.jpg', frameCopy)
 cv2.imwrite('Output-Skeleton.jpg', frame)
 
 print("Total time taken : {:.3f}".format(time.time() - t))
+
+create_list_distance(points)
 
 cv2.waitKey(0)
