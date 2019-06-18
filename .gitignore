@@ -6,9 +6,9 @@
 
 # Video Files #
 ###############
-*.webm
-*.avi
-*.mp4
+#*.webm
+#*.avi
+#*.mp4
 
 # ipynb checkpoints #
 #####################
