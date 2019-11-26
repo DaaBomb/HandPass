@@ -72,3 +72,5 @@ Of which unresolvable were:
 
 Removing frames where data becomes unresolvable was partially resolvable as we were able to handle until the point when all key-points were simultaneously detectable. After it, we are checking if too many points go out of visibility then only we are considering as not found.
 
+## To run, please run getModels.sh first
+
